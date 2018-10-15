@@ -14,3 +14,8 @@ nav {
 .title {
   padding: 30px 0 40px 0;
 }
+
+#title {
+  font-size: 50px;
+  font-weight: 300;
+}
