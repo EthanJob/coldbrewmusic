@@ -24,7 +24,7 @@
         <img src="{{ ctrl.recordData[2].image }}" alt="artwork">
         <h1>{{ ctrl.recordData[2].name }}</h1>
           <ol>
-            <li>{{ ctrl.recordData[2].songs}}</li>
+            <li ng-repeat="song in ctrl.recordData[2].songs">{{song}}</li>
           </ol>
       </div>
     </div>
