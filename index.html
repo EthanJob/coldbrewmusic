@@ -20,12 +20,23 @@
         <h3><a href="">Social Media</a></h3>
       </nav>
     <div class="mainBody">
-      <div ng-repeat="album in ctrl.recordData" class="item">
-        <img src="{{ album.image }}" alt="artwork">
-        <h1>{{ album.name }}</h1>
-          <ol>
-            <li ng-repeat="song in album.songs">{{song}}</li>
-          </ol>
+      <div ng-repeat="album in ctrl.recordData">
+        <div class="item">
+          <div class="itemLeft">
+            <img src="{{ album.image }}" alt="artwork">
+          </div>
+
+          <div class="itemRight">
+            <h2>{{ album.name }}</h2>
+            <p>{{ album.date }}</p>
+            <div class="list">
+              <ol>
+                <li ng-repeat="song in album.songs">{{song}}</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <hr>
       </div>
     </div>
   </body>
