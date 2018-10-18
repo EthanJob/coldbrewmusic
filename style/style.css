@@ -26,10 +26,20 @@ hr {
   font-weight: 300;
 }
 
-img {
+.artwork {
   height: 350px;
   width: 350px;
   border: 1px solid grey;
+}
+
+.clipart {
+  height: 30px;
+  width: auto;
+}
+
+.youtubeArt {
+  height: 25px;
+  width: auto;
 }
 
 .item {
@@ -41,6 +51,7 @@ img {
 
 .itemLeft, .itemRight {
   /* border: 1px solid blue; */
+  margin: 0 10px 0 10px;
 }
 
 .itemRight {
@@ -49,6 +60,7 @@ img {
 
 .list {
   text-align: left;
-  padding: 20px 0 0 30px;
+  padding: 20px 0 0 20px;
   font-size: 18px;
+  /* border: 1px solid lime; */
 }
