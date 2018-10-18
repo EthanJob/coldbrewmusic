@@ -33,17 +33,17 @@
               <ol>
                 <li ng-repeat="song in album.songs">{{ song }}</li>
               </ol>
-              <div class="listenLinks">
-                <a href="{{ album.spotify }}" target="_blank">
-                  <img class="clipart" src="images/spotify-logo.png" alt="Listen on Spotify">
-                </a>
-                <a href="{{ album.itunes }}" target="_blank">
-                  <img class="clipart" src="images/apple-music-clipart.png" alt="Listen on iTunes">
-                </a>
-                <a href="{{ album.youtube }}" target="_blank">
-                  <img class="youtubeArt" src="images/youtube-clipart.jpg" alt="Listen on YouTube">
-                </a>
-              </div>
+                <div class="streamLinks">
+                  <a class="logo" href="{{ album.spotify }}" target="_blank">
+                    <img class="clipart" src="images/spotify-logo.png" alt="Listen on Spotify">
+                  </a>
+                  <a class="logo" href="{{ album.itunes }}" target="_blank">
+                    <img class="clipart" src="images/apple-music-clipart.png" alt="Listen on iTunes">
+                  </a>
+                  <a class="logo" href="{{ album.youtube }}" target="_blank">
+                    <img class="youtubeArt" src="images/youtube-clipart.jpg" alt="Listen on YouTube">
+                  </a>
+                </div>
             </div>
           </div>
         </div>
