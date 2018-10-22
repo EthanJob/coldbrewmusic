@@ -33,7 +33,7 @@ hr {
 }
 
 .clipart {
-  height: 30px;
+  height: 40px;
   width: auto;
 }
 
@@ -67,4 +67,14 @@ hr {
   padding: 20px 0 0 20px;
   font-size: 18px;
   /* border: 1px solid lime; */
+}
+
+.streamLinks {
+  /* border: 1px solid orange; */
+  justify-content: flex-start;
+  padding-top: 25px;
+}
+
+.streamButton {
+  margin-bottom: 20px;
 }

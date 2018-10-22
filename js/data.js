@@ -1,6 +1,6 @@
 const albums = [
   {
-    image: "/images/hitn-artwork.jpg",
+    image: "images/hitn-artwork.jpg",
     name: 'I Wish There Were More Hours in the Night - Single',
     date: 'September 6, 2018',
     songs: ['I Wish There Were More Hours in the Night'],
@@ -9,7 +9,7 @@ const albums = [
     youtube: "https://www.youtube.com/watch?v=CfEuCrAD5vY"
   },
   {
-    image: "/images/vanilla-cola-artwork.jpeg",
+    image: "images/vanilla-cola-artwork.jpeg",
     name: 'Vanilla Cola - Single',
     date: 'July 25, 2018',
     songs: ['Vanilla Cola'],
@@ -18,7 +18,7 @@ const albums = [
     youtube: "https://www.youtube.com/watch?v=RE5iag_1ELw"
   },
   {
-    image: "/images/lofi-1-artwork.jpg",
+    image: "images/lofi-1-artwork.jpg",
     name: 'Lofi, Vol. 1',
     date: 'June 15, 2018',
     songs: ['U Are', 'Wait, Take My Picture', "You're Cute", 'Her Garden', 'The Cafe', 'She Likes to Be Sad', 'Pineapple', 'Roads', 'Dreamless', 'Beacon//The Beginning (Bonus Track)'],
@@ -27,7 +27,7 @@ const albums = [
     youtube: "https://www.youtube.com/playlist?list=OLAK5uy_lnHZmcj68G-WaW98Y3pGfmbFHH6RdRnd4"
   },
   {
-    image: "/images/4a4a4a-artwork.jpg",
+    image: "images/4a4a4a-artwork.jpg",
     name: '4A4A4A - Single',
     date: 'May 4, 2018',
     songs: ['4A4A4A'],
@@ -36,7 +36,7 @@ const albums = [
     youtube: "https://www.youtube.com/watch?v=yBgheV7Meyk"
   },
   {
-    image: "/images/roads-artwork.jpg",
+    image: "images/roads-artwork.jpg",
     name: 'Roads - Single',
     date: 'April 20, 2018',
     songs: ['Roads'],
@@ -45,7 +45,7 @@ const albums = [
     youtube: "https://www.youtube.com/watch?v=QR9kNJ38MCI"
   },
   {
-    image: "/images/ds-artwork.jpg",
+    image: "images/ds-artwork.jpg",
     name: 'Decorating Silence - EP',
     date: 'October 20, 2017',
     songs: ['Coffee Shop Loops', "80's.Wav", 'Air Castle', 'Seaside Rain', 'To Silence'],
