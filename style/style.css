@@ -35,11 +35,17 @@ hr {
 .clipart {
   height: 40px;
   width: auto;
+  transition-duration: .4s;
 }
 
 .youtubeArt {
   height: 25px;
   width: auto;
+  transition-duration: .4s;
+}
+
+.clipart:hover, .youtubeArt:hover {
+  transform: scale(1.4);
 }
 
 .logo:hover {
